@@ -11,6 +11,7 @@ This requires Python3 installed on your system. It also needs pipenv to manage p
 
 ## Folder Structure
 
+```
 [project working directory]
 |‐‐ [Pipfile]
 |-- [test directories]
@@ -21,6 +22,7 @@ This requires Python3 installed on your system. It also needs pipenv to manage p
 |       |-- conftest.py
 |       `-- test_*.py
 `-- [pytest.ini]
+```
 
 As per standard conventions, the entire code should reside inside a directory called tests which shall have features and step_defs as subfolders. step_defs can also contain `conftest.py` file which contains some fixture functions which are to be utilized by multiple tests. Lastly, `pytest.ini` file is used to register a custom marker to avoid warnings while test execution
 
