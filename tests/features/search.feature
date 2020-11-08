@@ -52,7 +52,7 @@ Feature: Udemy Search functionality
     @manual
     Scenario: Verify minimum characters to render dropdown
       When I enter two characters in the search box
-      Then I see a dropdown open
+      Then I see a dropdown opens
     
     @manual
     Scenario: Dropdown disappears on clearing search
