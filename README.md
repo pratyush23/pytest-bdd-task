@@ -1,6 +1,6 @@
 # pytest-bdd-task
 
-Task to demonstrate the automation testing of Google search functionality
+Task to demonstrate the automation testing of Udemy search functionality
 
 ## Framework Setup
 
@@ -29,4 +29,8 @@ As per standard conventions, the entire code should reside inside a directory ca
 ## Running the Tests
 
 The command used to run the tests is `pipenv run python -m pytest`. Also, there is a provision to run the tests by providing the tag names. It can be achieved by appending -k and the tag name. e.g. `pipenv run python -m pytest -k automated`
+
+## Reporting
+
+This framework uses pytest-html plugin to generate html reports for the test runs. To generate a report, run the command `pipenv run python -m pytest -k automated --html=report.html`
 
